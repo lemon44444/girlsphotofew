@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`http://girlsvideofew.freewebhosting.com.bd/` + encodeURI(path as string)
+					`girlsvideofew.freewebhosting.com.bd/` + encodeURI(path as string)
 				}`,
 			},
 		};
